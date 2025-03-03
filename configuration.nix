@@ -33,7 +33,7 @@ fileSystems."/" = lib.mkForce{
   fsType = "tmpfs";
   neededForBoot = true;
   options = [
-    "size=1GB"
+    "size=1G"
     "defaults"
     "mode=755"
   ];
